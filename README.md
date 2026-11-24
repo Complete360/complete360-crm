@@ -20,17 +20,26 @@ Source of truth for Complete360's GoHighLevel build: card templates, custom code
 
 ## Card format: THE SPACING RULE (read before writing any card)
 
-**Exactly one blank line between sections. Never double. Never bigger.**
+**Exactly one blank line between sections. Never double. Never bigger.** Tested on a live card, Nov 24, 2026:
 
-- **NEVER use empty paragraphs** (`<p></p>`, `<p style="..."></p>`, `<p><br></p>`) as spacers. GHL renders every empty paragraph as a huge gap (3 to 4 lines). This is the bug that kept coming back.
-- **For the one blank line, start the next section's paragraph with `<br>`**: `<p><br><strong>Product:</strong> ...</p>`. A line break inside a paragraph renders as exactly one line.
-- Sections that follow each other with no gap (e.g. STATUS list → gray banner, numbered checklist sections) get no `<br>`.
-- **GHL strips `margin:0px` / `padding` styles when it saves a card.** Only `background-color` survives. Don't add margin styles; they do nothing.
-- Banners: `<p style="background-color:#FFF3CD">` (yellow = build/launch), `#D1ECF1` (blue = renewal), `#E2E3E5` (gray = checklist how-to), `#F8D7DA` (red = warning). When a banner follows a gap, the `<br>` goes at the start of the banner paragraph (`<p style="background-color:#FFF3CD"><br><strong>…`).
+| HTML | Renders as |
+|---|---|
+| `...text<br></p><p><strong>Next</strong>` (one `<br>` at the **end** of the paragraph before the gap) | **one blank line ✅** |
+| `...text<br><br><strong>Next</strong>` (two plain sections merged into one paragraph) | **one blank line ✅** |
+| `<p><br><strong>Next</strong>` (`<br>` at the **start** of a paragraph) | two blank lines ❌ |
+| `<p></p>` (empty spacer paragraph) | three to four blank lines ❌ |
+
+Rules:
+
+- **One blank line = one `<br>` at the end of the paragraph *before* the gap.** If that paragraph is a banner, the `<br>` goes inside the banner (the color extends one line, which is fine).
+- **Never use empty paragraphs** (`<p></p>`, `<p style="..."></p>`, `<p><br></p>`, `<p>&nbsp;</p>`).
+- **Never start a paragraph with `<br>`.**
+- Sections that follow each other with no gap (STATUS list → gray banner, numbered checklist sections) get no `<br>`.
+- **GHL strips `margin`/`padding` styles on save.** Only `background-color` survives in workflow templates. Don't add margin styles.
+- **Updating an existing card through the task API strips ALL styles, banner colors included.** Templates edited in the workflow keep their colors.
+- Banners: `<p style="background-color:#FFF3CD">` (yellow = build/launch), `#D1ECF1` (blue = renewal), `#E2E3E5` (gray = checklist how-to), `#F8D7DA` (red = warning).
 - Line breaks are `<br>`. Custom values: `<span data-cv-variable="opportunity.order_id" data-cv-token="true">{{opportunity.order_id}}</span>`.
-- Footer: `<p><br><em>Created by: [WORKFLOW] Name</em></p>`.
-- Status: `<br>` method converted in every file on Nov 24, 2026; confirm on one live test card before pushing to GHL.
-- **Before committing or pushing any card**, run `python3 scripts/check_cards.py`. It fails on any empty paragraph.
+- **Before committing or pushing any card**, run `python3 scripts/check_cards.py`. It fails on empty paragraphs and on paragraphs that start with `<br>`.
 
 **To apply a card:** open the Create Task action, description box → source code view `<>` → select all → paste → save → publish the workflow. Do not use Workflow AI for card bodies; it strips the banner colors.
 

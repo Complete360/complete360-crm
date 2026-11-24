@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (spacing rule, tested)
+
+- **Tested on the Presley Roth MADS Tech card.** A leading `<br>` renders as two blank lines; a trailing `<br>` (end of the paragraph before the gap) or `<br><br>` inside one paragraph renders as exactly one. README table updated; all card files converted to trailing `<br>`; checker now also fails on leading `<br>`.
+- Updating an existing card via the task API strips all styles, banner colors included (Presley Roth MADS Tech lost its banners).
+
 ## 2026-11-24 (spacing rule)
 
 - **Spacing rule rewritten.** Root cause of the oversized gaps: empty `<p></p>` spacer paragraphs, which GHL renders as 3 to 4 blank lines, while GHL strips the `margin:0px` styles on save. New rule in README: no empty paragraphs ever; one blank line = a leading `<br>` in the next paragraph.
