@@ -27,11 +27,12 @@ Source of truth for Complete360's GoHighLevel build: card templates, custom code
 | `...text<br></p><p><strong>Next</strong>` (one `<br>` at the **end** of the paragraph before the gap) | **one blank line ✅** |
 | `...text<br><br><strong>Next</strong>` (two plain sections merged into one paragraph) | **one blank line ✅** |
 | `<p><br><strong>Next</strong>` (`<br>` at the **start** of a paragraph) | two blank lines ❌ |
-| `<p></p>` (empty spacer paragraph) | three to four blank lines ❌ |
+| `<p></p>`, `<p><br></p>`, `<p>&nbsp;</p>` (any extra paragraph) | three to four blank lines ❌ |
 
 Rules:
 
-- **One blank line = one `<br>` at the end of the paragraph *before* the gap.** If that paragraph is a banner, the `<br>` goes inside the banner (the color extends one line, which is fine).
+- **One blank line = one `<br>` at the end of the paragraph *before* the gap.**
+- **Banners never get a `<br>` and have no gap after them.** The next section starts right under the colored bar (a `<br>` inside a banner makes the box one line taller). Jared's call, Nov 24, 2026.
 - **Never use empty paragraphs** (`<p></p>`, `<p style="..."></p>`, `<p><br></p>`, `<p>&nbsp;</p>`).
 - **Never start a paragraph with `<br>`.**
 - Sections that follow each other with no gap (STATUS list → gray banner, numbered checklist sections) get no `<br>`.
@@ -39,7 +40,7 @@ Rules:
 - **Updating an existing card through the task API strips ALL styles, banner colors included.** Templates edited in the workflow keep their colors.
 - Banners: `<p style="background-color:#FFF3CD">` (yellow = build/launch), `#D1ECF1` (blue = renewal), `#E2E3E5` (gray = checklist how-to), `#F8D7DA` (red = warning).
 - Line breaks are `<br>`. Custom values: `<span data-cv-variable="opportunity.order_id" data-cv-token="true">{{opportunity.order_id}}</span>`.
-- **Before committing or pushing any card**, run `python3 scripts/check_cards.py`. It fails on empty paragraphs and on paragraphs that start with `<br>`.
+- **Before committing or pushing any card**, run `python3 scripts/check_cards.py`. It fails on empty paragraphs, paragraphs that start with `<br>`, and banners that end with `<br>`.
 
 **To apply a card:** open the Create Task action, description box → source code view `<>` → select all → paste → save → publish the workflow. Do not use Workflow AI for card bodies; it strips the banner colors.
 

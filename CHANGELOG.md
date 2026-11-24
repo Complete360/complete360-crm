@@ -2,6 +2,10 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (spacing rule, banners)
+
+- Tested `<p><br></p>` and `<p>&nbsp;</p>`: both render as ~3 blank lines. Banners now get no `<br>` and no gap after them (Jared's call). All cards updated; checker fails on a banner ending with `<br>`.
+
 ## 2026-11-24 (spacing rule, tested)
 
 - **Tested on the Presley Roth MADS Tech card.** A leading `<br>` renders as two blank lines; a trailing `<br>` (end of the paragraph before the gap) or `<br><br>` inside one paragraph renders as exactly one. README table updated; all card files converted to trailing `<br>`; checker now also fails on leading `<br>`.
