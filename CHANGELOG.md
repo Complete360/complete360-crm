@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (LSAM project cards)
+
+- **[ORD.01] LSAM cards checked against live (version 170).** All four match the repo word for word with banners intact and clean spacing. Tech cards (Onboarding, Renewal) pasted by hand. CSR cards (Onboarding, Renewal) applied by Workflow AI: text and banners kept, but the six custom-value chips became plain `{{…}}` tokens. Jared confirmed the values still fill in on live cards.
+- **Open:** LSAM CSR renewal still says to leave the previous term's review cards running (conflicts with the close-out rule; same line in GBPM, LSB, PLAT).
+
 ## 2026-11-24 (spacing rule, banners)
 
 - Tested `<p><br></p>` and `<p>&nbsp;</p>`: both render as ~3 blank lines. Banners now get no `<br>` and no gap after them (Jared's call). All cards updated; checker fails on a banner ending with `<br>`.

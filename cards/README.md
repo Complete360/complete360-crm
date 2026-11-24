@@ -21,10 +21,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | from card doc (Oct 27), not yet checked against live |
 | `gbps-tech.html` | Create Task \| Projects \| GBPS Tech - Gabriel | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `lsam-csr-onboarding.html` | Create Task \| Projects \| LSAM CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `lsam-csr-renewal.html` | Create Task \| Projects \| LSAM CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live |
-| `lsam-tech-onboarding.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `lsam-tech-renewal.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
+| `lsam-csr-onboarding.html` | Create Task \| Projects \| LSAM CSR - Luis (Onboarding) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in) |
+| `lsam-csr-renewal.html` | Create Task \| Projects \| LSAM CSR - Luis (Renewal) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in) |
+| `lsam-tech-onboarding.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); pasted by hand |
+| `lsam-tech-renewal.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pasted by hand |
 | `lsas-csr.html` | Create Task \| Projects \| LSAS CSR - Luis | Luis | from card doc (Oct 27), not yet checked against live |
 | `lsas-tech.html` | Create Task \| Projects \| LSAS Tech - Gabriel | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
