@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (renewal close-out wording, CSR renewal cards)
+
+- `cards/ord01/` GBPM, LSAM, LSB and PLAT CSR Renewal cards: "leave them running until Gabriel finishes the audit" replaced with the renewal close-out rule (mark the previous term's review cards Completed with the comment "Renewed into [Order ID]").
+- **Open:** not yet applied in [ORD.01]. Apply per product (paste or Workflow AI), then check the live text and update the Status column.
+
 ## 2026-11-24 (LSAM project cards)
 
 - **[ORD.01] LSAM cards checked against live (version 170).** All four match the repo word for word with banners intact and clean spacing. Tech cards (Onboarding, Renewal) pasted by hand. CSR cards (Onboarding, Renewal) applied by Workflow AI: text and banners kept, but the six custom-value chips became plain `{{…}}` tokens. Jared confirmed the values still fill in on live cards.
