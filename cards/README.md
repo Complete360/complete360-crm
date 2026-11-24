@@ -64,11 +64,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `gads-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | matches live [CS.GADS] wording, Nov 23 (live is not in house format yet) |
-| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | matches live [CS.GADS] wording, Nov 23 (live is not in house format yet) |
+| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | live (pushed by API), Nov 23, 2026 |
+| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | live (pushed by API), Nov 23, 2026 |
 | `gads-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | matches live [CS.GADS] wording, Nov 23 (live is not in house format yet) |
-| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | matches live [CS.GADS] wording, Nov 23 (live is not in house format yet) |
+| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | live (pushed by API), Nov 23, 2026 |
+| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | live (pushed by API), Nov 23, 2026 |
 
 ## `cs-gbpm/` · [CS.GBPM] Account Reviews
 

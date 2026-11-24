@@ -2,6 +2,12 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-23 (GADS)
+
+- **GADS checked against live.** ORD.01 GADS Tech/CSR (onboarding) match the repo; no live GADS renewal card exists yet to compare. [CS.GADS] review cards had already moved past the Oct 28 doc (final status list, Blocked/Delayed instead of Need Attention).
+- **[CS.GADS]**: all four review cards converted to house format; both renewal cards now carry the close-out rule. Pushed by API and republished. Source: `cards/cs-gads/`.
+- GADS migration variants still carry the old status list (Need Attention); not in any workflow.
+
 ## 2026-11-23 (repo)
 
 - Repo moved to the Complete360 organization (`Complete360/complete360-crm`) with a fresh history.
@@ -22,6 +28,6 @@ Newest first. One entry per change made in GHL. Note the workflow, what changed,
 - **[ORD.01] card bodies (pasted by Jared):** `cards/ord01/mads-*.html`. MADS Tech: Scheduled line and section 4 point at Hannah's subtask. MADS CSR: handoff goes to Gabriel & Hannah. Both renewal cards carry the close-out rule.
 
 **Open**
-- Other [CS.CODE] renewal ACR cards (GBPM, etc.) still say "you don't need to touch them". Update to the close-out rule.
+- Other [CS.CODE] renewal ACR cards (GBPM, LSAM, LSB, PLAT, SOCG, SOCM, REV) likely still say "you don't need to touch them". Update to the close-out rule.
 - Projects list shows `active_monitoring` as "Needs Attention". Status design says Active Monitoring.
 - Google Ads (GADS) review is next.
