@@ -18,17 +18,21 @@ Source of truth for Complete360's GoHighLevel build: card templates, custom code
 | `workflows/` | JSON exports of workflow definitions (see `workflows/README.md`) |
 | `CHANGELOG.md` | One entry per change made in GHL |
 
-## Card format (the spacing rule)
+## Card format: THE SPACING RULE (read before writing any card)
 
-Every card description uses the house format:
+**Exactly one blank line between sections. Never double. Never bigger.**
 
-- Every `<p>` carries `style="margin:0px; padding-left: 0px!important;"`.
-- Banners add their color to the same style: `...!important;background-color: #FFF3CD;` (yellow = build/launch), `#D1ECF1` (blue = renewal), `#E2E3E5` (gray = checklist how-to), `#F8D7DA` (red = warning).
-- One empty spacer paragraph (`<p style="margin:0px; padding-left: 0px!important;"></p>`) after the title block, after the product block, after each banner, and before the footer.
-- Line breaks are `<br>`. Custom values are wrapped: `<span data-cv-variable="opportunity.order_id" data-cv-token="true">{{opportunity.order_id}}</span>`.
-- Footer: `<p ...><em>Created by: [WORKFLOW] Name</em></p>`.
+- **NEVER use empty paragraphs** (`<p></p>`, `<p style="..."></p>`, `<p><br></p>`) as spacers. GHL renders every empty paragraph as a huge gap (3 to 4 lines). This is the bug that kept coming back.
+- **For the one blank line, start the next section's paragraph with `<br>`**: `<p><br><strong>Product:</strong> ...</p>`. A line break inside a paragraph renders as exactly one line.
+- Sections that follow each other with no gap (e.g. STATUS list → gray banner, numbered checklist sections) get no `<br>`.
+- **GHL strips `margin:0px` / `padding` styles when it saves a card.** Only `background-color` survives. Don't add margin styles; they do nothing.
+- Banners: `<p style="background-color:#FFF3CD">` (yellow = build/launch), `#D1ECF1` (blue = renewal), `#E2E3E5` (gray = checklist how-to), `#F8D7DA` (red = warning). When a banner follows a gap, the `<br>` goes at the start of the banner paragraph (`<p style="background-color:#FFF3CD"><br><strong>…`).
+- Line breaks are `<br>`. Custom values: `<span data-cv-variable="opportunity.order_id" data-cv-token="true">{{opportunity.order_id}}</span>`.
+- Footer: `<p><br><em>Created by: [WORKFLOW] Name</em></p>`.
+- Status: `<br>` method converted in every file on Nov 24, 2026; confirm on one live test card before pushing to GHL.
+- **Before committing or pushing any card**, run `python3 scripts/check_cards.py`. It fails on any empty paragraph.
 
-**To apply a card:** open the Create Task action, description box → source code view `<>` → select all → paste → save → publish the workflow. Do not use Workflow AI for card bodies; it strips inline styles and the banner colors.
+**To apply a card:** open the Create Task action, description box → source code view `<>` → select all → paste → save → publish the workflow. Do not use Workflow AI for card bodies; it strips the banner colors.
 
 ## Naming spine
 

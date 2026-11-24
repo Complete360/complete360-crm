@@ -2,6 +2,13 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (spacing rule)
+
+- **Spacing rule rewritten.** Root cause of the oversized gaps: empty `<p></p>` spacer paragraphs, which GHL renders as 3 to 4 blank lines, while GHL strips the `margin:0px` styles on save. New rule in README: no empty paragraphs ever; one blank line = a leading `<br>` in the next paragraph.
+- All 96 card files converted (empty paragraphs removed, margin styles removed, leading `<br>` added).
+- Added `scripts/check_cards.py`: fails on any empty paragraph. Run before every commit or push.
+- **Open:** test on one live card, then re-push [CS.MADS] and [CS.GADS] and re-paste the four ORD.01 MADS cards, which still contain spacers.
+
 ## 2026-11-23 (GADS)
 
 - **GADS checked against live.** ORD.01 GADS Tech/CSR (onboarding) match the repo; no live GADS renewal card exists yet to compare. [CS.GADS] review cards had already moved past the Oct 28 doc (final status list, Blocked/Delayed instead of Need Attention).
