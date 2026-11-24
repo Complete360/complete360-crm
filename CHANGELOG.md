@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-23 (repo)
+
+- Repo moved to the Complete360 organization (`Complete360/complete360-crm`) with a fresh history.
+- **All cards seeded.** 43 ✅ [SET] cards from [ORD.01] and 41 🔁 [ACR] cards (including migration variants) from the eight other [CS.CODE] workflows, extracted from the Oct 27/28 card docs. Only the MADS cards are verified against live; every other file is marked "not yet checked" in `cards/README.md`.
+
 ## 2026-11-23
 
 ### Meta Ads (MADS): creatives moved to a subtask

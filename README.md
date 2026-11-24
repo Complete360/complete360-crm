@@ -1,4 +1,4 @@
-# c360-ghl
+# complete360-crm
 
 Source of truth for Complete360's GoHighLevel build: card templates, custom code, and workflow snapshots. GHL is the live system; this repo is the reviewed copy with history.
 
