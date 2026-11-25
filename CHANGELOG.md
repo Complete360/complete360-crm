@@ -2,6 +2,12 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-25 (REV cards, SOCM CSR cards applied)
+
+- **[CS.REV]** (version 16 → 17): repo files were stale (Oct 28); rebuilt both review cards from the live text with the final spacing rule, renewal card now carries the close-out rule instead of "you don't need to touch it". Pushed by API; all other steps and edges intact. Every [CS.CODE] review workflow is now on the final spacing and close-out rules.
+- **[ORD.01] REV cards:** final spacing applied by Workflow AI. REV Build Renewal: "leave it running until this card is done" replaced with the close-out rule. Prospect-report lines kept on REV (no [SYS.17] subtask for REV); onboarding appointment kept ([CAL.09]). Both verified against the repo.
+- **[ORD.01] SOCM CSR Onboarding and Renewal:** Workflow AI failed twice, so both were pasted by hand in source view (version 189). Text matches the repo; the editor added `margin:0` styles to the paragraphs on paste, which is harmless. SOCM is done.
+
 ## 2026-11-25 (SOCG and SOCM project and review cards)
 
 - **[CS.SOCG]** (version 17 → 18) and **[CS.SOCM]** (version 21 → 22): repo files were stale (Oct 28); rebuilt all eight review cards from the live text with the final spacing rule, renewal cards now carry the close-out rule instead of "you don't need to touch them". Pushed by API; all other steps and edges intact.
