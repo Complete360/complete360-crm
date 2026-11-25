@@ -31,10 +31,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `lsb-tech-renewal.html` | Create Task \| Projects \| LSB Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `mads-csr-onboarding.html` | Create Task \| Projects \| MADS CSR - Luis (Onboarding) | Luis | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
-| `mads-csr-renewal.html` | Create Task \| Projects \| MADS CSR - Luis (Renewal) | Luis | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
-| `mads-tech-onboarding.html` | Create Task \| Projects \| MADS Tech - Gabriel (Onboarding) | Gabriel | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
-| `mads-tech-renewal.html` | Create Task \| Projects \| MADS Tech - Gabriel (Renewal) | Gabriel | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
+| `mads-csr-onboarding.html` | Create Task \| Projects \| MADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `mads-csr-renewal.html` | Create Task \| Projects \| MADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `mads-tech-onboarding.html` | Create Task \| Projects \| MADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `mads-tech-renewal.html` | Create Task \| Projects \| MADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `plat-csr-onboarding.html` | Create Task \| Projects \| PLAT CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
 | `plat-csr-renewal.html` | Create Task \| Projects \| PLAT CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `plat-tech-onboarding.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |

@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (MADS project cards)
+
+- **[ORD.01] MADS cards checked against live.** Text matched the repo word for word on all four (close-out wording and the Ad Creatives subtask already in); live still had the Nov 23 spacing (6 to 7 empty paragraphs and margin styles each).
+- All four applied in [ORD.01] by Workflow AI (version 174 → 175, published). Reviewed by API: only the four MADS Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs or margin styles, full text through the footer. Live HTML matches the repo. MADS is done (project and review cards).
+
 ## 2026-11-24 (GADS project cards; CS.GADS and CS.LSAM review cards)
 
 - **[ORD.01] GADS cards checked against live.** The live GADS Tech Renewal template was cut off after the first line of section 1 (no renewal cards had been created from it yet). The other three matched the repo but carried 6 empty spacer paragraphs each.
