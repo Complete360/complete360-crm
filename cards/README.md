@@ -15,10 +15,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `gads-csr-renewal.html` | Create Task \| Projects \| GADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gads-tech-onboarding.html` | Create Task \| Projects \| GADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gads-tech-renewal.html` | Create Task \| Projects \| GADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
-| `gbpm-csr-onboarding.html` | Create Task \| Projects \| GBPM CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
-| `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
+| `gbpm-csr-onboarding.html` | Create Task \| Projects \| GBPM CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); no-appointment change and final spacing applied in [ORD.01] by Workflow AI |
+| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI (text unchanged) |
+| `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); no-appointment change and final spacing applied in [ORD.01] by Workflow AI |
+| `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI (text unchanged) |
 | `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gbps-tech.html` | Create Task \| Projects \| GBPS Tech - Gabriel | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `lsam-csr-onboarding.html` | Create Task \| Projects \| LSAM CSR - Luis (Onboarding) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in) |
@@ -75,11 +75,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `gbpm-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `gbpm-csr-onboarding.html` | Create Task \| Account Reviews \| GBPM CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `gbpm-csr-renewal.html` | Create Task \| Account Reviews \| GBPM CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `gbpm-csr-onboarding.html` | Create Task \| Account Reviews \| GBPM CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24); pushed to [CS.GBPM] by API with final spacing and close-out wording |
+| `gbpm-csr-renewal.html` | Create Task \| Account Reviews \| GBPM CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24); pushed to [CS.GBPM] by API with final spacing and close-out wording |
 | `gbpm-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `gbpm-tech-onboarding.html` | Create Task \| Account Reviews \| GBPM Tech - Gabriel (Onboarding) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `gbpm-tech-renewal.html` | Create Task \| Account Reviews \| GBPM Tech - Gabriel (Renewal) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
+| `gbpm-tech-onboarding.html` | Create Task \| Account Reviews \| GBPM Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.GBPM] by API with final spacing and close-out wording |
+| `gbpm-tech-renewal.html` | Create Task \| Account Reviews \| GBPM Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.GBPM] by API with final spacing and close-out wording |
 
 ## `cs-lsam/` · [CS.LSAM] Account Reviews
 

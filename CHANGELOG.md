@@ -2,6 +2,13 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (GBPM project and review cards)
+
+- **[ORD.01] GBPM cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each.
+- Applied the approved no-appointment change (from `pending/gbpm-onboarding-no-appointment.md`, now removed): CSR Onboarding drops the appointment section and is renumbered (Agreement, Onboarding Form, Access & Details, Handoff to Gabriel, Reputation, Google Social); NAP rule is "the live GBP wins"; handoff note includes any NAP or listing changes. Tech Onboarding: claim/create from the onboarding form NAP, business name matches the GBP, Local SEO Booster listings match the GBP unless the client asked otherwise.
+- All four applied in [ORD.01] by Workflow AI (version 176 → 177, published). Renewal cards got spacing only (text unchanged). Reviewed by API: only the four GBPM Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs. Live HTML matches the repo.
+- **[CS.GBPM]** (version 31): repo files were stale (Oct 28 status list, Renewed Services close-out); rebuilt all four from the live text with the final spacing rule, renewal cards now carry the close-out rule. Pushed by API (v32): only the four descriptions changed; all 15 steps (including the three [SYS.17] prospect-report hooks) and 14 edges intact. GBPM is done.
+
 ## 2026-11-24 (GBPS project cards)
 
 - **[ORD.01] GBPS cards checked against live.** Text matched the repo word for word on both; live had 6 empty spacer paragraphs each.
