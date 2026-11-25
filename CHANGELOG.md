@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (GBPS project cards)
+
+- **[ORD.01] GBPS cards checked against live.** Text matched the repo word for word on both; live had 6 empty spacer paragraphs each.
+- Both applied in [ORD.01] by Workflow AI (version 175 → 176, published). Reviewed by API: only the two GBPS Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs, full text through the footer. Live HTML matches the repo. GBPS is setup only (no review cards), so GBPS is done.
+
 ## 2026-11-24 (MADS project cards)
 
 - **[ORD.01] MADS cards checked against live.** Text matched the repo word for word on all four (close-out wording and the Ad Creatives subtask already in); live still had the Nov 23 spacing (6 to 7 empty paragraphs and margin styles each).

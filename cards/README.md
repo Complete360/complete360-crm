@@ -19,8 +19,8 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | from card doc (Oct 27), not yet checked against live |
-| `gbps-tech.html` | Create Task \| Projects \| GBPS Tech - Gabriel | Gabriel | from card doc (Oct 27), not yet checked against live |
+| `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `gbps-tech.html` | Create Task \| Projects \| GBPS Tech - Gabriel | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `lsam-csr-onboarding.html` | Create Task \| Projects \| LSAM CSR - Luis (Onboarding) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in) |
 | `lsam-csr-renewal.html` | Create Task \| Projects \| LSAM CSR - Luis (Renewal) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `lsam-tech-onboarding.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); pasted by hand |
