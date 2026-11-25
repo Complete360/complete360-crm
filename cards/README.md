@@ -49,15 +49,15 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `socm-content-renewal.html` | Create Task \| Projects \| SOCM Content - Hannah (Renewal) | Hannah | live matches repo (Nov 25); final spacing applied, assignee fixed to Hannah (was Gabriel) |
 | `socm-csr-onboarding.html` | Create Task \| Projects \| SOCM CSR - Luis (Onboarding) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by hand paste |
 | `socm-csr-renewal.html` | Create Task \| Projects \| SOCM CSR - Luis (Renewal) | Luis | live matches repo (Nov 25); final spacing and close-out rule applied in [ORD.01] by hand paste |
-| `web-csr-essentials.html` | Create Task \| Projects \| WEB CSR - Luis (Essentials) | Luis | from card doc (Oct 27), not yet checked against live |
-| `web-csr-landing-page.html` | Create Task \| Projects \| WEB CSR - Luis (Landing Page) | Luis | from card doc (Oct 27), not yet checked against live |
-| `web-csr-premium.html` | Create Task \| Projects \| WEB CSR - Luis (Premium) | Luis | from card doc (Oct 27), not yet checked against live |
-| `web-csr-pro.html` | Create Task \| Projects \| WEB CSR - Luis (Pro) | Luis | from card doc (Oct 27), not yet checked against live |
-| `web-domain.html` | Create Task \| Projects \| WEB Domain - Hannah | Hannah | from card doc (Oct 27), not yet checked against live |
-| `web-tech-essentials.html` | Create Task \| Projects \| WEB Tech - Hannah (Essentials) | Hannah | from card doc (Oct 27), not yet checked against live |
-| `web-tech-landing-page.html` | Create Task \| Projects \| WEB Tech - Hannah (Landing Page) | Hannah | from card doc (Oct 27), not yet checked against live |
-| `web-tech-premium.html` | Create Task \| Projects \| WEB Tech - Hannah (Premium) | Hannah | from card doc (Oct 27), not yet checked against live |
-| `web-tech-pro.html` | Create Task \| Projects \| WEB Tech - Hannah (Pro) | Hannah | from card doc (Oct 27), not yet checked against live |
+| `web-csr-essentials.html` | Create Task \| Projects \| WEB CSR - Luis (Essentials) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-csr-landing-page.html` | Create Task \| Projects \| WEB CSR - Luis (Landing Page) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-csr-premium.html` | Create Task \| Projects \| WEB CSR - Luis (Premium) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-csr-pro.html` | Create Task \| Projects \| WEB CSR - Luis (Pro) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-domain.html` | Create Task \| Projects \| WEB Domain - Hannah | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-tech-essentials.html` | Create Task \| Projects \| WEB Tech - Hannah (Essentials) | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-tech-landing-page.html` | Create Task \| Projects \| WEB Tech - Hannah (Landing Page) | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-tech-premium.html` | Create Task \| Projects \| WEB Tech - Hannah (Premium) | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `web-tech-pro.html` | Create Task \| Projects \| WEB Tech - Hannah (Pro) | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
 
 ## `cs-gads/` · [CS.GADS] Account Reviews
 

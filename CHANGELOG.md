@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-25 (WEB cards; card pass complete)
+
+- **[ORD.01] WEB cards** (Landing Page, Essentials, Pro, Premium for Tech and CSR, plus WEBD Domain): text matched the repo on all nine; live had 6 to 7 empty spacer paragraphs each. Final spacing applied by Workflow AI in three runs (version 189 → 192). Reviewed by API: only the nine WEB Create Task actions changed; banners intact, no empty paragraphs, all nine match the repo. WEB is setup only (no review workflow).
+- **Card pass complete:** every [ORD.01] project card and every [CS.CODE] review card now follows the final spacing rule and the renewal close-out rule, and the repo matches live.
+
 ## 2026-11-25 (REV cards, SOCM CSR cards applied)
 
 - **[CS.REV]** (version 16 → 17): repo files were stale (Oct 28); rebuilt both review cards from the live text with the final spacing rule, renewal card now carries the close-out rule instead of "you don't need to touch it". Pushed by API; all other steps and edges intact. Every [CS.CODE] review workflow is now on the final spacing and close-out rules.
