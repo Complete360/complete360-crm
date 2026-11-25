@@ -2,6 +2,12 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-25 (SOCG and SOCM project and review cards)
+
+- **[CS.SOCG]** (version 17 → 18) and **[CS.SOCM]** (version 21 → 22): repo files were stale (Oct 28); rebuilt all eight review cards from the live text with the final spacing rule, renewal cards now carry the close-out rule instead of "you don't need to touch them". Pushed by API; all other steps and edges intact.
+- **[ORD.01] SOCG cards:** final spacing applied by Workflow AI (version 184). SOCG Tech Renewal ("Jared sets the previous term's SOCG Tech review card to Renewed Services") and SOCG CSR Renewal ("Close out the previous term's review card there") now use the close-out rule. All four verified against the repo.
+- **[ORD.01] SOCM cards:** three had been edited live since the repo was written (agreement line and form-resend wording on CSR Onboarding, "refresh without pausing" on Content Renewal, CSR Renewal banner); the repo now follows the live wording. SOCM CSR Renewal: removed "the current review cards stay active until she's done" and added the close-out line. SOCM Content Renewal was assigned to Gabriel; reassigned to Hannah (version 185). Content cards applied by Workflow AI (version 186) and verified. **SOCM CSR Onboarding and Renewal are updated in the repo but not yet applied live** (Workflow AI run pending).
+
 ## 2026-11-24 (PLAT cards, LSB onboarding, prospect-report cleanup)
 
 - **[ORD.01] PLAT cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each. Final spacing applied by Workflow AI. PLAT keeps its onboarding appointment (LSA path).

@@ -41,14 +41,14 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `plat-tech-renewal.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI |
 | `rev-build-onboarding.html` | Create Task \| Projects \| REV Build - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
 | `rev-build-renewal.html` | Create Task \| Projects \| REV Build - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live |
-| `socg-csr-onboarding.html` | Create Task \| Projects \| SOCG CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `socg-csr-renewal.html` | Create Task \| Projects \| SOCG CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live |
-| `socg-tech-onboarding.html` | Create Task \| Projects \| SOCG Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `socg-tech-renewal.html` | Create Task \| Projects \| SOCG Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `socm-content-onboarding.html` | Create Task \| Projects \| SOCM Content - Hannah (Onboarding) | Hannah | from card doc (Oct 27), not yet checked against live |
-| `socm-content-renewal.html` | Create Task \| Projects \| SOCM Content - Hannah (Renewal) | Hannah | from card doc (Oct 27), not yet checked against live |
-| `socm-csr-onboarding.html` | Create Task \| Projects \| SOCM CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `socm-csr-renewal.html` | Create Task \| Projects \| SOCM CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live |
+| `socg-csr-onboarding.html` | Create Task \| Projects \| SOCG CSR - Luis (Onboarding) | Luis | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `socg-csr-renewal.html` | Create Task \| Projects \| SOCG CSR - Luis (Renewal) | Luis | live matches repo (Nov 25); final spacing and close-out rule applied in [ORD.01] by Workflow AI |
+| `socg-tech-onboarding.html` | Create Task \| Projects \| SOCG Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `socg-tech-renewal.html` | Create Task \| Projects \| SOCG Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 25); final spacing and close-out rule applied in [ORD.01] by Workflow AI |
+| `socm-content-onboarding.html` | Create Task \| Projects \| SOCM Content - Hannah (Onboarding) | Hannah | live matches repo (Nov 25); final spacing applied in [ORD.01] by Workflow AI |
+| `socm-content-renewal.html` | Create Task \| Projects \| SOCM Content - Hannah (Renewal) | Hannah | live matches repo (Nov 25); final spacing applied, assignee fixed to Hannah (was Gabriel) |
+| `socm-csr-onboarding.html` | Create Task \| Projects \| SOCM CSR - Luis (Onboarding) | Luis | repo updated Nov 25 (final spacing, live wording); NOT yet applied in [ORD.01], waiting on Workflow AI run |
+| `socm-csr-renewal.html` | Create Task \| Projects \| SOCM CSR - Luis (Renewal) | Luis | repo updated Nov 25 (final spacing, close-out rule); NOT yet applied in [ORD.01], waiting on Workflow AI run |
 | `web-csr-essentials.html` | Create Task \| Projects \| WEB CSR - Luis (Essentials) | Luis | from card doc (Oct 27), not yet checked against live |
 | `web-csr-landing-page.html` | Create Task \| Projects \| WEB CSR - Luis (Landing Page) | Luis | from card doc (Oct 27), not yet checked against live |
 | `web-csr-premium.html` | Create Task \| Projects \| WEB CSR - Luis (Premium) | Luis | from card doc (Oct 27), not yet checked against live |
@@ -136,19 +136,19 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `socg-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `socg-csr-onboarding.html` | Create Task \| Account Reviews \| SOCG CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `socg-csr-renewal.html` | Create Task \| Account Reviews \| SOCG CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `socg-csr-onboarding.html` | Create Task \| Account Reviews \| SOCG CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 25); pushed to [CS.SOCG] by API with final spacing and close-out wording |
+| `socg-csr-renewal.html` | Create Task \| Account Reviews \| SOCG CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 25); pushed to [CS.SOCG] by API with final spacing and close-out wording |
 | `socg-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `socg-tech-onboarding.html` | Create Task \| Account Reviews \| SOCG Tech - Gabriel (Onboarding) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `socg-tech-renewal.html` | Create Task \| Account Reviews \| SOCG Tech - Gabriel (Renewal) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
+| `socg-tech-onboarding.html` | Create Task \| Account Reviews \| SOCG Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 25); pushed to [CS.SOCG] by API with final spacing and close-out wording |
+| `socg-tech-renewal.html` | Create Task \| Account Reviews \| SOCG Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 25); pushed to [CS.SOCG] by API with final spacing and close-out wording |
 
 ## `cs-socm/` · [CS.SOCM] Account Reviews
 
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `socm-content-migration.html` | backfill only (not in a workflow) | Hannah | from ACR doc (Oct 28), not yet checked against live |
-| `socm-content-onboarding.html` | Create Task \| Account Reviews \| SOCM Content - Hannah (Onboarding) | Hannah | from ACR doc (Oct 28), not yet checked against live |
-| `socm-content-renewal.html` | Create Task \| Account Reviews \| SOCM Content - Hannah (Renewal) | Hannah | from ACR doc (Oct 28), not yet checked against live |
+| `socm-content-onboarding.html` | Create Task \| Account Reviews \| SOCM Content - Hannah (Onboarding) | Hannah | rebuilt from live text (Nov 25); pushed to [CS.SOCM] by API with final spacing and close-out wording |
+| `socm-content-renewal.html` | Create Task \| Account Reviews \| SOCM Content - Hannah (Renewal) | Hannah | rebuilt from live text (Nov 25); pushed to [CS.SOCM] by API with final spacing and close-out wording |
 | `socm-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `socm-csr-onboarding.html` | Create Task \| Account Reviews \| SOCM CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `socm-csr-renewal.html` | Create Task \| Account Reviews \| SOCM CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `socm-csr-onboarding.html` | Create Task \| Account Reviews \| SOCM CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 25); pushed to [CS.SOCM] by API with final spacing and close-out wording |
+| `socm-csr-renewal.html` | Create Task \| Account Reviews \| SOCM CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 25); pushed to [CS.SOCM] by API with final spacing and close-out wording |
