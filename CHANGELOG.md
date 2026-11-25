@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (close-out wording applied in [ORD.01])
+
+- Workflow AI edited the GBPM, LSAM, LSB and PLAT CSR Renewal actions in [ORD.01] (version 170 → 171, published). Reviewed by API: only that one sentence changed in each; no other action, trigger, edge or setting changed; banner colors kept. Live text now matches the repo on all four.
+- **Open:** GBPM, LSB and PLAT CSR Renewal still carry 5 empty spacer paragraphs live (pre-existing). Fix with the spacing rule when each product comes up.
+
 ## 2026-11-24 (renewal close-out wording, CSR renewal cards)
 
 - `cards/ord01/` GBPM, LSAM, LSB and PLAT CSR Renewal cards: "leave them running until Gabriel finishes the audit" replaced with the renewal close-out rule (mark the previous term's review cards Completed with the comment "Renewed into [Order ID]").

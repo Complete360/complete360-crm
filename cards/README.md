@@ -16,19 +16,19 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `gads-tech-onboarding.html` | Create Task \| Projects \| GADS Tech - Gabriel (Onboarding) | Gabriel | matches live card text (newest ORD.01 card, Oct 28), Nov 23 |
 | `gads-tech-renewal.html` | Create Task \| Projects \| GADS Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27); no live GADS renewal card yet to compare |
 | `gbpm-csr-onboarding.html` | Create Task \| Projects \| GBPM CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live; close-out wording updated in repo Nov 24, not yet applied in [ORD.01]  |
+| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | from card doc (Oct 27), not yet checked against live |
 | `gbps-tech.html` | Create Task \| Projects \| GBPS Tech - Gabriel | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `lsam-csr-onboarding.html` | Create Task \| Projects \| LSAM CSR - Luis (Onboarding) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in) |
-| `lsam-csr-renewal.html` | Create Task \| Projects \| LSAM CSR - Luis (Renewal) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in); close-out wording updated in repo Nov 24, not yet applied in [ORD.01]  |
+| `lsam-csr-renewal.html` | Create Task \| Projects \| LSAM CSR - Luis (Renewal) | Luis | live text and banners match repo (Nov 24); applied by Workflow AI (custom values are plain tokens, confirmed filling in); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `lsam-tech-onboarding.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); pasted by hand |
 | `lsam-tech-renewal.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pasted by hand |
 | `lsas-csr.html` | Create Task \| Projects \| LSAS CSR - Luis | Luis | from card doc (Oct 27), not yet checked against live |
 | `lsas-tech.html` | Create Task \| Projects \| LSAS Tech - Gabriel | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live; close-out wording updated in repo Nov 24, not yet applied in [ORD.01]  |
+| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `lsb-tech-renewal.html` | Create Task \| Projects \| LSB Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `mads-csr-onboarding.html` | Create Task \| Projects \| MADS CSR - Luis (Onboarding) | Luis | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
@@ -36,7 +36,7 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `mads-tech-onboarding.html` | Create Task \| Projects \| MADS Tech - Gabriel (Onboarding) | Gabriel | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
 | `mads-tech-renewal.html` | Create Task \| Projects \| MADS Tech - Gabriel (Renewal) | Gabriel | verified against live, Nov 23, 2026 (ORD.01 MADS: pasted by Jared) |
 | `plat-csr-onboarding.html` | Create Task \| Projects \| PLAT CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `plat-csr-renewal.html` | Create Task \| Projects \| PLAT CSR - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live; close-out wording updated in repo Nov 24, not yet applied in [ORD.01]  |
+| `plat-csr-renewal.html` | Create Task \| Projects \| PLAT CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `plat-tech-onboarding.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `plat-tech-renewal.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
 | `rev-build-onboarding.html` | Create Task \| Projects \| REV Build - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
