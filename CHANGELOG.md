@@ -2,6 +2,11 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (LSB project and review cards)
+
+- **[ORD.01] LSB cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each. Applied by Workflow AI (version 177 → 178, published), spacing only. Reviewed by API: only the four LSB Create Task actions changed; banners intact, no empty paragraphs. Live HTML matches the repo. LSB keeps its onboarding appointment (only GBPM dropped it).
+- **[CS.LSB]** (version 22): repo files were stale (Oct 28); rebuilt all four from the live text with the final spacing rule, renewal cards now carry the close-out rule instead of "you don't need to touch them". Pushed by API (v23): only the four descriptions changed; all 15 steps (including the three [SYS.17] prospect-report hooks) and 14 edges intact. LSB is done.
+
 ## 2026-11-24 (GBPM project and review cards)
 
 - **[ORD.01] GBPM cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each.

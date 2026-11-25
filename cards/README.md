@@ -27,10 +27,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `lsam-tech-renewal.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pasted by hand |
 | `lsas-csr.html` | Create Task \| Projects \| LSAS CSR - Luis | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule (custom values are plain tokens) |
 | `lsas-tech.html` | Create Task \| Projects \| LSAS Tech - Gabriel | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule (custom values are plain tokens) |
-| `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
-| `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `lsb-tech-renewal.html` | Create Task \| Projects \| LSB Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
+| `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `lsb-tech-renewal.html` | Create Task \| Projects \| LSB Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-csr-onboarding.html` | Create Task \| Projects \| MADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-csr-renewal.html` | Create Task \| Projects \| MADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-tech-onboarding.html` | Create Task \| Projects \| MADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
@@ -97,11 +97,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `lsb-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `lsb-csr-onboarding.html` | Create Task \| Account Reviews \| LSB CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `lsb-csr-renewal.html` | Create Task \| Account Reviews \| LSB CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `lsb-csr-onboarding.html` | Create Task \| Account Reviews \| LSB CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24); pushed to [CS.LSB] by API with final spacing and close-out wording |
+| `lsb-csr-renewal.html` | Create Task \| Account Reviews \| LSB CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24); pushed to [CS.LSB] by API with final spacing and close-out wording |
 | `lsb-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `lsb-tech-onboarding.html` | Create Task \| Account Reviews \| LSB Tech - Gabriel (Onboarding) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `lsb-tech-renewal.html` | Create Task \| Account Reviews \| LSB Tech - Gabriel (Renewal) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
+| `lsb-tech-onboarding.html` | Create Task \| Account Reviews \| LSB Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.LSB] by API with final spacing and close-out wording |
+| `lsb-tech-renewal.html` | Create Task \| Account Reviews \| LSB Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.LSB] by API with final spacing and close-out wording |
 
 ## `cs-mads/` · [CS.MADS] Account Reviews
 
