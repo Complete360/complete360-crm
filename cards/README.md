@@ -16,7 +16,7 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `gads-tech-onboarding.html` | Create Task \| Projects \| GADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gads-tech-renewal.html` | Create Task \| Projects \| GADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gbpm-csr-onboarding.html` | Create Task \| Projects \| GBPM CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); no-appointment change and final spacing applied in [ORD.01] by Workflow AI |
-| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI (text unchanged) |
+| `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); Prospect Report section removed ([SYS.17] subtask) |
 | `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); no-appointment change and final spacing applied in [ORD.01] by Workflow AI |
 | `gbpm-tech-renewal.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI (text unchanged) |
 | `gbps-csr.html` | Create Task \| Projects \| GBPS CSR - Luis | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
@@ -27,18 +27,18 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | `lsam-tech-renewal.html` | Create Task \| Projects \| LSAM Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pasted by hand |
 | `lsas-csr.html` | Create Task \| Projects \| LSAS CSR - Luis | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule (custom values are plain tokens) |
 | `lsas-tech.html` | Create Task \| Projects \| LSAS Tech - Gabriel | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule (custom values are plain tokens) |
-| `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
-| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
-| `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `lsb-csr-onboarding.html` | Create Task \| Projects \| LSB CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); no appointment, no onboarding form, NAP matches live GBP |
+| `lsb-csr-renewal.html` | Create Task \| Projects \| LSB CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); Prospect Report section removed ([SYS.17] subtask) |
+| `lsb-tech-onboarding.html` | Create Task \| Projects \| LSB Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); NAP matches live GBP unless the handoff note says otherwise |
 | `lsb-tech-renewal.html` | Create Task \| Projects \| LSB Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-csr-onboarding.html` | Create Task \| Projects \| MADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-csr-renewal.html` | Create Task \| Projects \| MADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-tech-onboarding.html` | Create Task \| Projects \| MADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `mads-tech-renewal.html` | Create Task \| Projects \| MADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
-| `plat-csr-onboarding.html` | Create Task \| Projects \| PLAT CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
-| `plat-csr-renewal.html` | Create Task \| Projects \| PLAT CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
-| `plat-tech-onboarding.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
-| `plat-tech-renewal.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27), not yet checked against live |
+| `plat-csr-onboarding.html` | Create Task \| Projects \| PLAT CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI |
+| `plat-csr-renewal.html` | Create Task \| Projects \| PLAT CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); final spacing applied, Prospect Report section removed ([SYS.17] subtask) |
+| `plat-tech-onboarding.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI |
+| `plat-tech-renewal.html` | Create Task \| Projects \| PLAT Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); final spacing applied in [ORD.01] by Workflow AI |
 | `rev-build-onboarding.html` | Create Task \| Projects \| REV Build - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
 | `rev-build-renewal.html` | Create Task \| Projects \| REV Build - Luis (Renewal) | Luis | from card doc (Oct 27), not yet checked against live |
 | `socg-csr-onboarding.html` | Create Task \| Projects \| SOCG CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
@@ -117,11 +117,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `plat-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `plat-csr-onboarding.html` | Create Task \| Account Reviews \| PLAT CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `plat-csr-renewal.html` | Create Task \| Account Reviews \| PLAT CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `plat-csr-onboarding.html` | Create Task \| Account Reviews \| PLAT CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24); pushed to [CS.PLAT] by API with final spacing and close-out wording, prospect-report line removed |
+| `plat-csr-renewal.html` | Create Task \| Account Reviews \| PLAT CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24); pushed to [CS.PLAT] by API with final spacing and close-out wording, prospect-report line removed |
 | `plat-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `plat-tech-onboarding.html` | Create Task \| Account Reviews \| PLAT Tech - Gabriel (Onboarding) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `plat-tech-renewal.html` | Create Task \| Account Reviews \| PLAT Tech - Gabriel (Renewal) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
+| `plat-tech-onboarding.html` | Create Task \| Account Reviews \| PLAT Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.PLAT] by API with final spacing and close-out wording |
+| `plat-tech-renewal.html` | Create Task \| Account Reviews \| PLAT Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.PLAT] by API with final spacing and close-out wording |
 
 ## `cs-rev/` · [CS.REV] Account Reviews
 

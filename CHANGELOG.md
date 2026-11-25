@@ -2,6 +2,14 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (PLAT cards, LSB onboarding, prospect-report cleanup)
+
+- **[ORD.01] PLAT cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each. Final spacing applied by Workflow AI. PLAT keeps its onboarding appointment (LSA path).
+- **[CS.PLAT]** (version 22): repo files were stale (Oct 28); rebuilt all four from the live text with the final spacing rule and the close-out rule on the renewal cards. Pushed by API (v23), then the CSR "Prospect report: if the last was 90+ days ago" line removed from both CSR cards (v26). All 15 steps (including the three [SYS.17] hooks) and 14 edges intact.
+- **Prospect reports are a [SYS.17] subtask now**, so the "📊 PROSPECT REPORT" section is removed from the GBPM, LSB and PLAT CSR Renewal project cards (handoff renumbered). REV cards keep their prospect-report line (REV has no [SYS.17] subtask).
+- **LSB onboarding:** no appointment and no onboarding form (Jared, Nov 24). LSB CSR Onboarding is now Agreement, Business Details, Handoff; NAP is checked against the live GBP and changed only if wrong or the client asks. LSB Tech Onboarding: NAP matches the live GBP unless Luis's handoff note says otherwise. [ONB.LSB.01] already sends no form and no booking link.
+- All applied in [ORD.01] by Workflow AI (version 178 → 183, published). Reviewed by API after each run: only the intended Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs. All 11 cards (PLAT x4, LSB x4, GBPM CSR Renewal, plus the unchanged LSB Tech Renewal) match the repo. PLAT and LSB are done.
+
 ## 2026-11-24 (LSB project and review cards)
 
 - **[ORD.01] LSB cards:** text matched the repo on all four; live had 5 to 6 empty spacer paragraphs each. Applied by Workflow AI (version 177 → 178, published), spacing only. Reviewed by API: only the four LSB Create Task actions changed; banners intact, no empty paragraphs. Live HTML matches the repo. LSB keeps its onboarding appointment (only GBPM dropped it).
