@@ -2,6 +2,13 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (LSAS project cards)
+
+- **[ORD.01] LSAS cards checked against live.** Text matched the repo word for word on both; live still had 6 empty spacer paragraphs each.
+- `cards/ord01/lsas-tech.html`: added the missing gap before the "Created by" footer.
+- Both cards applied in [ORD.01] by Workflow AI (version 171 → 173, published). Reviewed by API: only the two LSAS Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs, no leading `<br>`. Live HTML matches the repo (custom values as plain tokens).
+- LSAS has no review cards (setup only, no ACR).
+
 ## 2026-11-24 (close-out wording applied in [ORD.01])
 
 - Workflow AI edited the GBPM, LSAM, LSB and PLAT CSR Renewal actions in [ORD.01] (version 170 → 171, published). Reviewed by API: only that one sentence changed in each; no other action, trigger, edge or setting changed; banner colors kept. Live text now matches the repo on all four.
