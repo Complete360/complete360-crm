@@ -64,11 +64,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `gads-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
-| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
+| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); pushed to [CS.GADS] by API with the final spacing rule |
+| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); pushed to [CS.GADS] by API with the final spacing rule |
 | `gads-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
-| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
+| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); pushed to [CS.GADS] by API with the final spacing rule |
+| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pushed to [CS.GADS] by API with the final spacing rule |
 
 ## `cs-gbpm/` · [CS.GBPM] Account Reviews
 
@@ -86,11 +86,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `lsam-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-csr-onboarding.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
-| `lsam-csr-renewal.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
+| `lsam-csr-onboarding.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24); pushed to [CS.LSAM] by API with final spacing and close-out wording |
+| `lsam-csr-renewal.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24); pushed to [CS.LSAM] by API with final spacing and close-out wording |
 | `lsam-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-tech-onboarding.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
-| `lsam-tech-renewal.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
+| `lsam-tech-onboarding.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.LSAM] by API with final spacing and close-out wording |
+| `lsam-tech-renewal.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24); pushed to [CS.LSAM] by API with final spacing and close-out wording |
 
 ## `cs-lsb/` · [CS.LSB] Account Reviews
 
@@ -107,10 +107,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
-| `mads-csr-onboarding.html` | Create Task \| Account Reviews \| MADS CSR - Luis (Onboarding) | Luis | live (pushed by API), Nov 23, 2026 |
-| `mads-csr-renewal.html` | Create Task \| Account Reviews \| MADS CSR - Luis (Renewal) | Luis | live (pushed by API), Nov 23, 2026 |
-| `mads-tech-onboarding.html` | Create Task \| Account Reviews \| MADS Tech - Gabriel (Onboarding) | Gabriel | live (pushed by API), Nov 23, 2026 |
-| `mads-tech-renewal.html` | Create Task \| Account Reviews \| MADS Tech - Gabriel (Renewal) | Gabriel | live (pushed by API), Nov 23, 2026 |
+| `mads-csr-onboarding.html` | Create Task \| Account Reviews \| MADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); pushed to [CS.MADS] by API with the final spacing rule |
+| `mads-csr-renewal.html` | Create Task \| Account Reviews \| MADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); pushed to [CS.MADS] by API with the final spacing rule |
+| `mads-tech-onboarding.html` | Create Task \| Account Reviews \| MADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); pushed to [CS.MADS] by API with the final spacing rule |
+| `mads-tech-renewal.html` | Create Task \| Account Reviews \| MADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); pushed to [CS.MADS] by API with the final spacing rule |
 
 ## `cs-plat/` · [CS.PLAT] Account Reviews
 
