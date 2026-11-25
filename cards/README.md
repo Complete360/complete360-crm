@@ -11,10 +11,10 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
-| `gads-csr-onboarding.html` | Create Task \| Projects \| GADS CSR - Luis (Onboarding) | Luis | matches live card text (newest ORD.01 card, Oct 28), Nov 23 |
-| `gads-csr-renewal.html` | Create Task \| Projects \| GADS CSR - Luis (Renewal) | Luis | from card doc (Oct 27); no live GADS renewal card yet to compare |
-| `gads-tech-onboarding.html` | Create Task \| Projects \| GADS Tech - Gabriel (Onboarding) | Gabriel | matches live card text (newest ORD.01 card, Oct 28), Nov 23 |
-| `gads-tech-renewal.html` | Create Task \| Projects \| GADS Tech - Gabriel (Renewal) | Gabriel | from card doc (Oct 27); no live GADS renewal card yet to compare |
+| `gads-csr-onboarding.html` | Create Task \| Projects \| GADS CSR - Luis (Onboarding) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `gads-csr-renewal.html` | Create Task \| Projects \| GADS CSR - Luis (Renewal) | Luis | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `gads-tech-onboarding.html` | Create Task \| Projects \| GADS Tech - Gabriel (Onboarding) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
+| `gads-tech-renewal.html` | Create Task \| Projects \| GADS Tech - Gabriel (Renewal) | Gabriel | live matches repo (Nov 24); applied in [ORD.01] by Workflow AI with the final spacing rule |
 | `gbpm-csr-onboarding.html` | Create Task \| Projects \| GBPM CSR - Luis (Onboarding) | Luis | from card doc (Oct 27), not yet checked against live |
 | `gbpm-csr-renewal.html` | Create Task \| Projects \| GBPM CSR - Luis (Renewal) | Luis | live text matches repo (Nov 24); live still has 5 old empty spacer paragraphs (repo spacing not applied yet); close-out wording applied in [ORD.01] by Workflow AI Nov 24 |
 | `gbpm-tech-onboarding.html` | Create Task \| Projects \| GBPM Tech - Gabriel (Onboarding) | Gabriel | from card doc (Oct 27), not yet checked against live |
@@ -64,11 +64,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `gads-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | live (pushed by API), Nov 23, 2026 |
-| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | live (pushed by API), Nov 23, 2026 |
+| `gads-csr-onboarding.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Onboarding) | Luis | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
+| `gads-csr-renewal.html` | Create Task \| Account Reviews \| GADS CSR - Luis (Renewal) | Luis | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
 | `gads-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28); outdated status list (still has Need Attention), not in any workflow |
-| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | live (pushed by API), Nov 23, 2026 |
-| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | live (pushed by API), Nov 23, 2026 |
+| `gads-tech-onboarding.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Onboarding) | Gabriel | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
+| `gads-tech-renewal.html` | Create Task \| Account Reviews \| GADS Tech - Gabriel (Renewal) | Gabriel | repo text matched live (Nov 24); final spacing ready, apply to [CS.GADS] by Workflow AI then verify |
 
 ## `cs-gbpm/` · [CS.GBPM] Account Reviews
 
@@ -86,11 +86,11 @@ Migration variants (`*-migration.html`) are not in any workflow. They are for ba
 | File | Workflow action | Assigned | Status |
 |---|---|---|---|
 | `lsam-csr-migration.html` | backfill only (not in a workflow) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-csr-onboarding.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Onboarding) | Luis | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-csr-renewal.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Renewal) | Luis | from ACR doc (Oct 28), not yet checked against live |
+| `lsam-csr-onboarding.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Onboarding) | Luis | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
+| `lsam-csr-renewal.html` | Create Task \| Account Reviews \| LSAM CSR - Luis (Renewal) | Luis | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
 | `lsam-tech-migration.html` | backfill only (not in a workflow) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-tech-onboarding.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Onboarding) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
-| `lsam-tech-renewal.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Renewal) | Gabriel | from ACR doc (Oct 28), not yet checked against live |
+| `lsam-tech-onboarding.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Onboarding) | Gabriel | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
+| `lsam-tech-renewal.html` | Create Task \| Account Reviews \| LSAM Tech - Gabriel (Renewal) | Gabriel | rebuilt from live text (Nov 24) with final spacing and close-out wording; apply to [CS.LSAM] by Workflow AI then verify |
 
 ## `cs-lsb/` · [CS.LSB] Account Reviews
 

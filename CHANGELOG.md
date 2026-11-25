@@ -2,6 +2,15 @@
 
 Newest first. One entry per change made in GHL. Note the workflow, what changed, and anything still open.
 
+## 2026-11-24 (GADS project cards; CS.GADS and CS.LSAM review cards)
+
+- **[ORD.01] GADS cards checked against live.** The live GADS Tech Renewal template was cut off after the first line of section 1 (no renewal cards had been created from it yet). The other three matched the repo but carried 6 empty spacer paragraphs each.
+- `cards/ord01/gads-tech-renewal.html`: "Jared sets the previous term's GADS Tech review card to Renewed Services" replaced with the renewal close-out rule.
+- All four GADS cards applied in [ORD.01] by Workflow AI (version 173 → 174, published). Reviewed by API: only the four GADS Create Task actions changed; no other action, trigger, edge or setting; banners intact, no empty paragraphs, full text through the footer. Live HTML matches the repo.
+- **[CS.GADS]** (version 28): live text matched the repo word for word; live still has empty spacer paragraphs and margin styles. Repo files already follow the final rule.
+- **[CS.LSAM]** (version 25): the repo files were stale (Oct 28: old status list, prospect report line removed from LSAM since, Renewed Services close-out). Rebuilt all four from the live text with the final spacing rule; renewal cards now carry the close-out rule instead of "you don't need to touch them". Migration variants unchanged.
+- **Open:** apply [CS.GADS] and [CS.LSAM] review cards by Workflow AI, verify live, update the Status column.
+
 ## 2026-11-24 (LSAS project cards)
 
 - **[ORD.01] LSAS cards checked against live.** Text matched the repo word for word on both; live still had 6 empty spacer paragraphs each.
